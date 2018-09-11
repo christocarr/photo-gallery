@@ -1,4 +1,4 @@
-#Photo Gallery
+# Photo Gallery
 
 A personal project to showcase my photography which will in time replace my old photography portfolio.
 
