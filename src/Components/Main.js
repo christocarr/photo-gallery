@@ -5,14 +5,16 @@ import Animals from './Animals';
 import Travel from './Travel';
 import People from './People';
 import Architecture from './Architecture';
+import About from './About';
 
 const Main = () => (
 	<Switch>
 		<Route exact path="/" component={Home}></Route>
-		<Route exact path="/animals" component={Animals}></Route>
-		<Route exact path="/people" component={People}></Route>
-		<Route exact path="/travel" component={Travel}></Route>
-		<Route exact path="/architecture" component={Architecture}></Route>
+		<Route path="/animals" component={Animals}></Route>
+		<Route path="/people" component={People}></Route>
+		<Route path="/travel" component={Travel}></Route>
+		<Route path="/architecture" component={Architecture}></Route>
+		<Route path="/about" component={About}></Route>
 	</Switch>
 )
 
