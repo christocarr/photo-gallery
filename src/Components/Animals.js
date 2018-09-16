@@ -7,27 +7,32 @@ const PHOTO_SET = [
   {
     src: require('../images/animals/cat1.jpg'),
     width: 3,
-    height: 2
+    height: 2,
+    key: 0
   },
   {
     src: require('../images/animals/baboon.jpg'),
     width: 3,
-    height: 2
+    height: 2,
+    key: 1
   },
   {
     src: require('../images/animals/cheetah.jpg'),
     width: 2,
-    height: 1
+    height: 1,
+    key: 2
   },
   {
     src: require('../images/animals/koala.jpg'),
     width: 2,
-    height: 1
+    height: 1,
+    key: 3
   },
   {
     src: require('../images/animals/toucan.jpg'),
     width: 2,
-    height: 1
+    height: 1,
+    key: 4
   },
 ]
 
