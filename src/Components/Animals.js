@@ -4,8 +4,26 @@ import Gallery from 'react-photo-gallery';
 
 const PHOTO_SET = [
   {
-    src: require('../images/cat1.jpg')
-  }
+    src: require('../images/animals/cat1.jpg'),
+    width: 3,
+    height: 2
+  },
+  {
+    src: require('../images/animals/baboon.jpg'),
+    width: 3,
+    height: 2
+  },
+  {
+    src: require('../images/animals/cheetah.jpg'),
+    width: 2,
+    height: 1
+  },
+  {
+    src: require('../images/animals/koala.jpg')
+  },
+  {
+    src: require('../images/animals/toucan.jpg')
+  },
 ]
 
 class Animals extends Component {

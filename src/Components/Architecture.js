@@ -4,7 +4,7 @@ import Gallery from 'react-photo-gallery';
 
 const PHOTO_SET = [
   {
-    src: require('../images/cat1.jpg')
+    // src: require('../images/')
   }
 ]
 
