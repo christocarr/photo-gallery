@@ -1,11 +1,22 @@
 # Photo Gallery
 
-A personal project to showcase my photography which will in time replace my old photography portfolio.
+A personal project to showcase my photography which will replace my old photography website.
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
+
+## Dependencies
+
+1. react-photo-gallery
+2. react-lightbox
+
+## Instructions
+
+1. Download or `git clone` the repo
+2. Run `nom install` to install any dependancies
+3. Start the app with `npm start` which will run a development server at localhost:3000
 
 ## Table of Contents
 
