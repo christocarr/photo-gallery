@@ -35,21 +35,14 @@ h1 {
   margin: 1em 
 }
 
-.animals {
-  background-image: url("images/animals/baboon.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-filter: blur(2px);
-  -moz-filter: blur(2px);
-  -o-filter: blur(2px);
-  -ms-filter: blur(2px);
-  filter: blur(2px);
-}
-
 h2 {
   font-size: 1.3em;
 }
 
+.gallery-container {
+  width: 70%;
+  margin: 0 auto 0 auto;
+}
 
 .footer {
   height: 8vh;
@@ -57,4 +50,5 @@ h2 {
   position: fixed;
   bottom: 0;
   border: 1px solid lightgrey;
+  background-color: white;
 }
