@@ -17,11 +17,6 @@ const Home = () => (
 					<h2>People</h2>
 				</div>
 			</Link>
-			<Link to="/architecture" className="category">
-				<div className="architecture">
-					<h2>Architecture</h2>
-				</div>
-			</Link>
 		</div>
 	)} />
 );  

@@ -4,7 +4,6 @@ import Home from './Home';
 import Animals from './Animals';
 import Travel from './Travel';
 import People from './People';
-import Architecture from './Architecture';
 import About from './About';
 
 const Main = () => (
@@ -13,7 +12,6 @@ const Main = () => (
 		<Route path="/animals" component={Animals}></Route>
 		<Route path="/people" component={People}></Route>
 		<Route path="/travel" component={Travel}></Route>
-		<Route path="/architecture" component={Architecture}></Route>
 		<Route path="/about" component={About}></Route>
 	</Switch>
 )
