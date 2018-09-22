@@ -5,34 +5,46 @@ import Lightbox from 'react-images';
 
 const PHOTO_SET = [
   {
-    src: require('../images/animals/cat1.jpg'),
+    src: require('../images/animals/coati/coati1920.jpg'),
+    // srcSet: [
+    // ],
+    sizes: ['(min-width: 480px) 50vw,(min-width:1024px) 33.3vw, 100vw'],
     width: 3,
-    height: 2,
-    key: 0
+    height: 4,
+    key: '0',
+    alt: 'Coati climbing a palm tree'
   },
   {
-    src: require('../images/animals/baboon.jpg'),
+    src: require('../images/animals/lizard/lizard1920.jpg'),
+    // srcSet: [
+    // 
+    // ],
+    // sizes: ['(min-width: 480px) 50vw,(min-width:1024px) 33.3vw, 100vw'],
     width: 3,
-    height: 2,
-    key: 1
+    height: 3.6,
+    key: '1',
+    alt: 'Sunbathing lizard'
   },
   {
-    src: require('../images/animals/cheetah.jpg'),
-    width: 2,
-    height: 1,
-    key: 2
-  },
-  {
-    src: require('../images/animals/koala.jpg'),
-    width: 2,
-    height: 1,
-    key: 3
-  },
-  {
-    src: require('../images/animals/toucan.jpg'),
-    width: 2,
-    height: 1,
-    key: 4
+    src: require('../images/animals/vulture/vulture1920.jpg'),
+    // srcSet: [
+    // 
+    // ],
+    // sizes: ['(min-width: 480px) 50vw,(min-width:1024px) 33.3vw, 100vw'],
+    width: 3,
+    height: 4,
+    key: '2',
+    alt: 'Staring vulture'
+  },  {
+    src: require('../images/animals/rhino/rhino1920.jpg'),
+    // srcSet: [
+    // 
+    // ],
+    // sizes: ['(min-width: 480px) 50vw,(min-width:1024px) 33.3vw, 100vw'],
+    width: 4,
+    height: 3,
+    key: '3',
+    alt: 'Grazing rhino in Woburn Park'
   },
 ]
 
