@@ -7,19 +7,38 @@ const PHOTO_SET = [
   {
     src: require('../images/people/mel/pregnant1920.jpg'),
     // srcSet: [
-    //   require('../images/people/mel/pregnant320 320w'),
-
+    //   require('images/people/mel/pregnant320.jpg 320w'),
+    //   '../images/people/mel/pregnant640.jpg 640w',
+    //   '../images/people/mel/pregnant1180.jpg 1180w',
+    //   '../images/people/mel/pregnant1920.jpg 1920w'
     // ],
-    // sizes: ['(min-width: 480px) 50vw,(min-width:1024px) 33.3vw, 100vw'],
+    sizes: ['(min-width: 480px) 50vw,(min-width:1024px) 33.3vw, 100vw'],
     width: 3,
     height: 4,
     key: '0'
-  }
+  },
+  {
+    src: require('../images/people/ellie/ellie1920.jpg'),
+    // srcSet: [
+    // 
+    // ],
+    // sizes: ['(min-width: 480px) 50vw,(min-width:1024px) 33.3vw, 100vw'],
+    width: 3,
+    height: 4.3,
+    key: '1'
+  },
+  {
+    src: require('../images/people/bee/bee1920.jpg'),
+    // srcSet: [
+    // 
+    // ],
+    // sizes: ['(min-width: 480px) 50vw,(min-width:1024px) 33.3vw, 100vw'],
+    width: 3,
+    height: 3,
+    key: '1'
+  },
 ]
 
-// 'images/people/mel/pregnant640 640w',
-// 'images/people/mel/pregnant1180 1180w',
-// 'images/people/mel/pregnant1920 1920w',
 
 class People extends Component {
 
