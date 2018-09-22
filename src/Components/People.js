@@ -15,7 +15,8 @@ const PHOTO_SET = [
     sizes: ['(min-width: 480px) 50vw,(min-width:1024px) 33.3vw, 100vw'],
     width: 3,
     height: 4,
-    key: '0'
+    key: '0',
+    alt: 'Pregnant woman'
   },
   {
     src: require('../images/people/ellie/ellie1920.jpg'),
@@ -25,7 +26,8 @@ const PHOTO_SET = [
     // sizes: ['(min-width: 480px) 50vw,(min-width:1024px) 33.3vw, 100vw'],
     width: 3,
     height: 4.3,
-    key: '1'
+    key: '1',
+    alt: 'Model with stricking background'
   },
   {
     src: require('../images/people/bee/bee1920.jpg'),
@@ -35,7 +37,19 @@ const PHOTO_SET = [
     // sizes: ['(min-width: 480px) 50vw,(min-width:1024px) 33.3vw, 100vw'],
     width: 3,
     height: 3,
-    key: '1'
+    key: '2',
+    alt: 'Model in motion blur'
+  },
+  {
+    src: require('../images/people/couple/couple1920.jpg'),
+    // srcSet: [
+    // 
+    // ],
+    // sizes: ['(min-width: 480px) 50vw,(min-width:1024px) 33.3vw, 100vw'],
+    width: 3,
+    height: 3.3,
+    key: '3',
+    alt: 'Couple in a park'
   },
 ]
 
