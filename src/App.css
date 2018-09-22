@@ -48,6 +48,18 @@ h2 {
   margin: 0 auto 0 auto;
 }
 
+.bottom-nav {
+  font-size: 0.9em;
+  margin: 1em 0 5.5em 0;
+  display: flex;
+  justify-content: center;
+}
+
+.travel,
+.animals {
+  margin: 0 0.5em 0 0;
+}
+
 .footer {
   display: flex;
   flex-direction: column;

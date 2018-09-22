@@ -99,15 +99,15 @@ class People extends Component {
             currentImage={this.state.currentImage}
             isOpen={this.state.lightboxIsOpen}
           />
-          <div>
+          <div className="bottom-nav">
             <Link to="/travel">
               <div className="travel">
                 <h2>Travel</h2>
               </div>
             </Link>
-            <Link to="/people">
-              <div className="people">
-                <h2>People</h2>
+            <Link to="/animals">
+              <div className="animals">
+                <h2>Animals</h2>
               </div>
             </Link>
           </div>

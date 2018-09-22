@@ -82,7 +82,7 @@ class Animals extends Component {
             currentImage={this.state.currentImage}
             isOpen={this.state.lightboxIsOpen}
           />
-          <div>
+          <div className="bottom-nav">
             <Link to="/travel">
               <div className="travel">
                 <h2>Travel</h2>

@@ -20,7 +20,7 @@ class Travel extends Component {
         <div>
           <h2>Travel</h2>
           <Gallery photos={PHOTO_SET}/>
-          <div>
+          <div className="bottom-nav">
             <Link to="/animals">
               <div className="animals">
                 <h2>Animals</h2>
