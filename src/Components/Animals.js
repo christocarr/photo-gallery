@@ -93,11 +93,6 @@ class Animals extends Component {
                 <h2>People</h2>
               </div>
             </Link>
-            <Link to="/architecture">
-              <div className="architecture">
-                <h2>Architecture</h2>
-              </div>
-            </Link>
         </div>
       </div>
       )} />
