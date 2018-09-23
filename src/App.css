@@ -23,6 +23,24 @@ h1 {
   display: none;
 }
 
+.home-image-container {
+  height: 8em;
+  border: 1px solid lightgray;
+}
+
+.travel-img {
+  background-image: url("images/travel/tuk-tukdriver/tuk-tukhome.jpg");
+}
+
+.people-img {
+  background-image: url("images/people/bee/beehome.jpg");
+  filter: brightness(50%);
+}
+
+.animal-img {
+  background-image: url("images/animals/rhino/rhinohome.jpg");
+}
+
 .category-container {
   display: flex;
   flex-direction: column;
@@ -31,15 +49,22 @@ h1 {
 }
 
 .category {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
   height: 25vh; 
-  margin: 1em 
+  margin: 0.5em 1em 0.5em 1em; 
 }
 
-h2 {
+.category-heading {
+  color:white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -90%);
+  -webkit-transform: translate(-50%, -90%);
+  position: absolute;
   font-size: 1.1em;
 }
 
