@@ -129,6 +129,11 @@ h2 {
   font-size: 1.1em;
 }
 
+.gallery-container p {
+  line-height: 1.6em;
+  text-align: left;
+}
+
 .bottom-nav {
   font-size: 0.9em;
   margin: 1em 0 5.5em 0;
