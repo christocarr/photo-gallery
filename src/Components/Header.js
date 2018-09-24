@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import Navigation from './Navigation';
 import MenuIcon from '../images/menu.svg';
-import { Link } from 'react-router-dom';
 
 export default class Header extends Component {
 
@@ -9,18 +9,14 @@ export default class Header extends Component {
     menuIsOpen: false
   }
 
-  render() {
-
-    const toggleMenu = () => {
-      if (this.state.menuIsOpen) {
-        this.setState({menuIsOpen: false})
-      } else {
-        this.setState({menuIsOpen: true})
-      }
-    }
-
-    return (
+  toggleMenu = () => {
+    this.setState({
+      menuIsOpen: !this.state.menuIsOpen
+    })
+  }
   
+  render() {
+    return (
       <div className="header">
         <Link to="/" className="header-link">
           <h1>Chris Carr Photography</h1>
@@ -28,7 +24,7 @@ export default class Header extends Component {
         <img src={MenuIcon} 
           className="menu-icon" 
           alt="menu icon"
-          onClick={toggleMenu}
+          onClick={this.toggleMenu}
         />
         <Navigation 
           menuIsOpen={this.state.menuIsOpen}

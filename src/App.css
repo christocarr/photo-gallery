@@ -38,17 +38,37 @@ h1 {
   cursor: pointer;
 }
 
-.menu-open {
+.navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 10em;
+  height: 13em;
   position: absolute;
-  top: 0;
+  top: 5em;
   right: 50px;
+  background-color: white;
+  border: solid 1px lightgray;
 }
 
-.menu-closed {
-
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-/**************HOME SCREEN*************/
+.nav-link:last-child {
+  margin: 1.5em;;
+}
+
+/***hide navigation on menu clicked***/
+.hide {
+  display: none;
+}
+
+/*******************************************
+                  HOME SCREEN
+********************************************/
 .category-container {
   display: flex;
   flex-direction: column;
@@ -96,7 +116,9 @@ h1 {
   background-image: url("images/animals/rhino/rhinohome.jpg");
 }
 
-/**************GALLERIES*************/
+/*******************************************
+                  GALLERIES
+********************************************/
 
 .gallery-container {
   width: 70%;
