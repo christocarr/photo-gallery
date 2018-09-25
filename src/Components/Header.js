@@ -29,6 +29,16 @@ export default class Header extends Component {
         <Navigation 
           menuIsOpen={this.state.menuIsOpen}
         />
+        <nav className="large-nav">
+          <ul>
+            <li className="nav-link">
+              <Link to="/">Home</Link>
+            </li>
+            <li className="nav-link">
+              <Link to="/about">About</Link>
+            </li>
+          </ul>
+        </nav>
       </div>
     )
   }
