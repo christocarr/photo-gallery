@@ -88,7 +88,7 @@ class Travel extends Component {
     return (
       <Route path="/travel" render={() => (
         <div className="gallery-container">
-          <h2>Travel</h2>
+          <h2 className="gallery-heading">Travel</h2>
           <Gallery 
             photos={PHOTO_SET} 
             onClick={this.openLightbox}

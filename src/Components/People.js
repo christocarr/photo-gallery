@@ -95,7 +95,7 @@ class People extends Component {
     return (
       <Route path="/people" render={() => (
         <div className="gallery-container">
-          <h2>People</h2>
+          <h2 className="gallery-heading">People</h2>
           <Gallery photos={PHOTO_SET}
            onClick={this.openLightbox}
            direction='row'
