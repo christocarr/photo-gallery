@@ -90,7 +90,7 @@ class Animals extends Component {
     return (
       <Route path="/animals" render={() => (
         <div className="gallery-container">
-          <h2>Animals</h2>
+          <h2 className="gallery-heading">Animals</h2>
           <Gallery 
             photos={PHOTO_SET} 
             onClick={this.openLightbox}
