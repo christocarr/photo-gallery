@@ -21,7 +21,7 @@ const PHOTO_SET = [
     // ],
     // sizes: ['(min-width: 480px) 50vw,(min-width:1024px) 33.3vw, 100vw'],
     width: 3,
-    height: 3.6,
+    height: 4.5,
     key: '1',
     alt: 'Sunbathing lizard'
   },
@@ -35,17 +35,30 @@ const PHOTO_SET = [
     height: 4,
     key: '2',
     alt: 'Staring vulture'
-  },  {
+  },  
+  {
     src: require('../images/animals/rhino/rhino1920.jpg'),
     // srcSet: [
     // 
     // ],
     // sizes: ['(min-width: 480px) 50vw,(min-width:1024px) 33.3vw, 100vw'],
-    width: 4,
+    width: 4.5,
     height: 3,
     key: '3',
     alt: 'Grazing rhino in Woburn Park'
   },
+  {
+    src: require('../images/animals/monkey/monkey1920.jpg'),
+    // srcSet: [
+    // 
+    // ],
+    // sizes: ['(min-width: 480px) 50vw,(min-width:1024px) 33.3vw, 100vw'],
+    width: 2,
+    height: 3,
+    key: '4',
+    alt: 'Squirrel monkey'
+  },
+  
 ]
 
 class Animals extends Component {

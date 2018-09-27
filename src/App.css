@@ -235,6 +235,10 @@ h2 {
       font-size: 1.2em;
     }
 
+    .category-container {
+      width: 800px;
+    }
+
     .gallery-container {
       width: 60%;
       margin: 20vh auto 0 auto;

@@ -14,7 +14,7 @@ const PHOTO_SET = [
     // ],
     sizes: ['(min-width: 480px) 50vw,(min-width:1024px) 33.3vw, 100vw'],
     width: 3,
-    height: 4,
+    height: 4.5,
     key: '0',
     alt: 'Pregnant woman'
   },
@@ -35,7 +35,7 @@ const PHOTO_SET = [
     // 
     // ],
     // sizes: ['(min-width: 480px) 50vw,(min-width:1024px) 33.3vw, 100vw'],
-    width: 3,
+    width: 3.5,
     height: 3,
     key: '2',
     alt: 'Model in motion blur'
@@ -47,9 +47,20 @@ const PHOTO_SET = [
     // ],
     // sizes: ['(min-width: 480px) 50vw,(min-width:1024px) 33.3vw, 100vw'],
     width: 3,
-    height: 3.3,
+    height: 3.5,
     key: '3',
     alt: 'Couple in a park'
+  },
+  {
+    src: require('../images/people/jo/jo1920.jpg'),
+    // srcSet: [
+    // 
+    // ],
+    // sizes: ['(min-width: 480px) 50vw,(min-width:1024px) 33.3vw, 100vw'],
+    width: 3,
+    height: 4.5,
+    key: '4',
+    alt: 'Jo and autumn colours'
   },
 ]
 
