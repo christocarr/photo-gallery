@@ -157,6 +157,17 @@ h2 {
   margin: 0 0.5em 0 0;
 }
 
+.about-container {
+  width: 75%;
+  margin: 15vh auto 0 auto;
+  line-height: 1.6em;
+  text-align: left;
+}
+
+.about-container h2 {
+  text-align: center;
+}
+
 .footer {
   display: flex;
   flex-direction: column;
@@ -226,16 +237,38 @@ h2 {
 
     .gallery-container {
       width: 60%;
+      margin: 20vh auto 0 auto;
+    }
+
+    .gallery-heading {
+      margin: 0 0 2em 0;
     }
 
     .category-heading {
       font-size: 1.2em;
-      margin: 0 0 0 0;
+    }
+
+    .about-container {
+      margin: 20vh auto 0 auto;
+      width: 60%;
+    }
+
+    .about-container h2 {
+      margin: 0 0 2em 0;
     }
 
     .bottom-nav {
       margin: 2.5em 0 0 0;
     }
+
+  }
+
+  @media screen and (min-width: 1439px) {
+
+    .about-container {
+      width: 50%;
+    }
+
   }
 
 }
