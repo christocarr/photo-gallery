@@ -22,6 +22,8 @@ You can find the most recent version of this guide [here](https://github.com/fac
 
 When changing routes the scroll remains in previous position. Seems like going back to home page(scroll disabled) from one of the gallerie pages the top of the page is cut off. 
 
+Image srcSet can not be used. Returns an error.
+
 ## Table of Contents
 
 - [Updating to New Releases](#updating-to-new-releases)
