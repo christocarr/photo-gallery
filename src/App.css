@@ -254,7 +254,7 @@ h2 {
 
     .about-container {
       margin: 20vh auto 0 auto;
-      width: 60%;
+      width: 50%;
     }
 
     .about-container h2 {
@@ -270,7 +270,7 @@ h2 {
   @media screen and (min-width: 1439px) {
 
     .about-container {
-      width: 50%;
+      width: 40%;
     }
 
   }
