@@ -48,6 +48,17 @@ const PHOTO_SET = [
     alt: 'Grazing rhino in Woburn Park'
   },
   {
+    src: require('../images/animals/caterpillar/caterpillar1920.jpg'),
+    // srcSet: [
+    // 
+    // ],
+    // sizes: ['(min-width: 480px) 50vw,(min-width:1024px) 33.3vw, 100vw'],
+    width: 2,
+    height: 1.5,
+    key: '4',
+    alt: 'Caterpillar'
+  },
+  {
     src: require('../images/animals/monkey/monkey1920.jpg'),
     // srcSet: [
     // 
@@ -55,10 +66,20 @@ const PHOTO_SET = [
     // sizes: ['(min-width: 480px) 50vw,(min-width:1024px) 33.3vw, 100vw'],
     width: 2,
     height: 3,
-    key: '4',
+    key: '5',
     alt: 'Squirrel monkey'
   },
-  
+  {
+    src: require('../images/animals/rhino/rhino(2)1920.jpg'),
+    // srcSet: [
+    // 
+    // ],
+    // sizes: ['(min-width: 480px) 50vw,(min-width:1024px) 33.3vw, 100vw'],
+    width: 2,
+    height: 3,
+    key: '6',
+    alt: 'Caterpillar'
+  },
 ]
 
 class Animals extends Component {

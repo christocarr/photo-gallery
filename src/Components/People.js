@@ -62,6 +62,17 @@ const PHOTO_SET = [
     key: '4',
     alt: 'Model Jo and autumn colours'
   },
+  {
+    src: require('../images/people/boyandcat/boyandcat1920.jpg'),
+    // srcSet: [
+    // 
+    // ],
+    // sizes: ['(min-width: 480px) 50vw,(min-width:1024px) 33.3vw, 100vw'],
+    width: 3,
+    height: 4,
+    key: '5',
+    alt: 'Boy and his cat'
+  },
 ]
 
 class People extends Component {
