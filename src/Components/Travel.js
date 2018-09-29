@@ -44,6 +44,16 @@ const PHOTO_SET = [
     key: '3',
     alt: 'Bangkok tuk-tuk driver'
   },
+  {
+    src: require('../images/travel/kiliview/kiliview1920.jpg'),
+    // srcSet: [
+    // ],
+    sizes: ['(min-width: 480px) 50vw,(min-width:1024px) 33.3vw, 100vw'],
+    width: 4,
+    height: 3,
+    key: '4',
+    alt: 'View of Uhuru peak, Kilimanjaro'
+  },
 ]
 
 class Travel extends Component {
