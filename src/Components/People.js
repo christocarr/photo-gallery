@@ -105,19 +105,21 @@ class People extends Component {
   render() {
     return (
       <Route path="/people" render={() => (
-        <div className="gallery-container">
-          <h2 className="gallery-heading">People</h2>
-          <Gallery photos={PHOTO_SET}
-           onClick={this.openLightbox}
-           direction='row'
-          />
-          <Lightbox images={PHOTO_SET}
-            onClose={this.closeLightbox}
-            onClickPrev={this.gotoPrevious}
-            onClickNext={this.gotoNext}
-            currentImage={this.state.currentImage}
-            isOpen={this.state.lightboxIsOpen}
-          />
+        <div>
+          <div className="gallery-container">
+            <h2 className="gallery-heading">People</h2>
+            <Gallery photos={PHOTO_SET}
+            onClick={this.openLightbox}
+            direction='row'
+            />
+            <Lightbox images={PHOTO_SET}
+              onClose={this.closeLightbox}
+              onClickPrev={this.gotoPrevious}
+              onClickNext={this.gotoNext}
+              currentImage={this.state.currentImage}
+              isOpen={this.state.lightboxIsOpen}
+            />
+          </div>
           <div className="bottom-nav">
             <Link to="/travel">
               <div className="travel">
@@ -130,7 +132,7 @@ class People extends Component {
               </div>
             </Link>
           </div>
-        </div>
+        </div>  
       )} />
     )
   }

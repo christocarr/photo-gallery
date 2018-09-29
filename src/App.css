@@ -147,7 +147,7 @@ h2 {
 
 .bottom-nav {
   font-size: 0.9em;
-  margin: 2em 0 5.5em 0;
+  margin: 2em 0 7em 0;
   display: flex;
   justify-content: center;
 }
@@ -213,7 +213,7 @@ h2 {
   }
 
   .bottom-nav {
-    margin: 2.5em 0 0 0;
+    margin: 2.5em 0 7em 0;
   }
 
   .footer {
