@@ -20,9 +20,9 @@ You can find the most recent version of this guide [here](https://github.com/fac
 
 ## Issues
 
-When changing routes the scroll remains in previous position. Seems like going back to home page(scroll disabled) from one of the gallerie pages the top of the page is cut off. 
+~~When changing routes the scroll remains in previous position. Seems like going back to home page(scroll disabled) from one of the gallerie pages the top of the page is cut off.~~ Fixed 
 
-Image srcSet can not be used. Returns an error.
+Image srcSet can not be used. Returns an error. Problem with the react-photo-gallery package as I followed the docs.
 
 ## Table of Contents
 
