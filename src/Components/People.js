@@ -60,7 +60,7 @@ const PHOTO_SET = [
     width: 3,
     height: 4.5,
     key: '4',
-    alt: 'Jo and autumn colours'
+    alt: 'Model Jo and autumn colours'
   },
 ]
 
