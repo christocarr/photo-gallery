@@ -80,6 +80,7 @@ class People extends Component {
   //when the a gallery mounts disable scroll on body
   componentDidMount() {
     document.body.classList.remove('scroll');
+    window.scrollTo(0, 0);
   }
   //when the a gallery unmounts enable scroll on body
   componentWillUnmount() {
