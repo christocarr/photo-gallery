@@ -3,8 +3,14 @@ import { Route } from 'react-router-dom';
 
 export default class About extends Component {
 
+  //when the a gallery mounts disable scroll on body
   componentDidMount() {
+    document.body.classList.remove('scroll');
     window.scrollTo(0, 0);
+  }
+  //when the a gallery unmounts enable scroll on body
+  componentWillUnmount() {
+    document.body.classList.add('scroll');
   }
 
   render() {
