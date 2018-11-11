@@ -78,7 +78,18 @@ const PHOTO_SET = [
     width: 2,
     height: 3,
     key: '6',
-    alt: 'Caterpillar'
+    alt: 'Resting rhino'
+  },
+  {
+    src: require('../images/animals/kangaroo/kangaroo1920.jpg'),
+    // srcSet: [
+    // 
+    // ],
+    // sizes: ['(min-width: 480px) 50vw,(min-width:1024px) 33.3vw, 100vw'],
+    width: 3,
+    height: 2,
+    key: '7',
+    alt: 'Kangaroos'
   },
 ]
 
