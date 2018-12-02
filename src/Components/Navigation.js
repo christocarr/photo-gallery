@@ -6,9 +6,10 @@ export default class Navigation extends Component {
   render () {
 
     const menuVis = this.props.menuIsOpen ? 'show' : 'hide';
+    const toggleMenu = this.props.toggleMenu;
 
     return (
-      <div className={`navigation ${menuVis}`}>
+      <div className={`navigation ${menuVis}`} onClick={toggleMenu}>
         <ul>
           <li className="nav-link">
             <Link to="/">Home</Link>

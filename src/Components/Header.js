@@ -27,7 +27,7 @@ export default class Header extends Component {
           onClick={this.toggleMenu}
         />
         <Navigation 
-          menuIsOpen={this.state.menuIsOpen}
+          menuIsOpen={this.state.menuIsOpen} toggleMenu={this.toggleMenu}
         />
         <nav className="large-nav">
           <ul>
