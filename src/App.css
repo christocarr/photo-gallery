@@ -158,6 +158,7 @@ h2 {
 }
 
 .about-container {
+  font-size: 0.9rem;
   width: 75%;
   margin: 15vh auto 0 auto;
   line-height: 1.6em;
@@ -192,6 +193,18 @@ h2 {
 /*******************************************
                 MEDIA QUERIES
 ********************************************/
+
+@media screen and (min-width: 375px) {
+  .about-container {
+    font-size: 1em;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  .about-container {
+    font-size: 1em;
+  }
+}
 
 @media screen and (min-width: 767px) {
 
