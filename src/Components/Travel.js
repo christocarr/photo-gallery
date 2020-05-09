@@ -61,8 +61,18 @@ const PHOTO_SET = [
     sizes: ['(min-width: 480px) 50vw,(min-width:1024px) 33.3vw, 100vw'],
     width: 5,
     height: 3,
-    key: '4',
+    key: '5',
     alt: 'Scooter rider in Ko Samui'
+  },
+  {
+    src: require('../images/travel/CapePointLightHouse.jpg'),
+    // srcSet: [
+    // ],
+    sizes: ['(min-width: 480px) 50vw,(min-width:1024px) 33.3vw, 100vw'],
+    width: 3.5,
+    height: 5,
+    key: '6',
+    alt: 'Looking up at Cape Point lighthouse'
   },
 ]
 
