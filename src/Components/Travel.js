@@ -54,6 +54,16 @@ const PHOTO_SET = [
     key: '4',
     alt: 'View of Uhuru peak, Kilimanjaro'
   },
+  {
+    src: require('../images/travel/kosamuibiker.jpg'),
+    // srcSet: [
+    // ],
+    sizes: ['(min-width: 480px) 50vw,(min-width:1024px) 33.3vw, 100vw'],
+    width: 5,
+    height: 3,
+    key: '4',
+    alt: 'Scooter rider in Ko Samui'
+  },
 ]
 
 class Travel extends Component {
