@@ -73,6 +73,15 @@ const PHOTO_SET = [
     height: 5,
     key: '6',
     alt: 'Looking up at Cape Point lighthouse'
+  },{
+    src: require('../images/travel/beer/beerbay1024.jpg'),
+    // srcSet: [
+    // ],
+    sizes: ['(min-width: 480px) 50vw,(min-width:1024px) 33.3vw, 100vw'],
+    width: 2.5,
+    height: 5,
+    key: '7',
+    alt: 'Looking up at Cape Point lighthouse'
   },
 ]
 
