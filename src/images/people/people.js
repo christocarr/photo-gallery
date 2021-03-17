@@ -7,6 +7,6 @@ export const peoplePhotos = [
     width: 3,
     height: 4.5,
     key: '6',
-    alt: 'Pregnant woman',
+    alt: 'woman holding holly plant cutting',
   },
 ];
