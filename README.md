@@ -15,7 +15,7 @@ You can find the most recent version of this guide [here](https://github.com/fac
 ## Instructions
 
 1. Download or `git clone` the repo
-2. Run `nom install` to install any dependancies
+2. Run `npm install` to install any dependancies
 3. Start the app with `npm start` which will run a development server at localhost:3000
 
 ## Issues
