@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Route, Link } from 'react-router-dom';
 import Gallery from 'react-photo-gallery';
 import { animalPhotos } from '../images/animals/animals';
@@ -94,20 +94,20 @@ import { animalPhotos } from '../images/animals/animals';
 //   },
 // ];
 
-class Animals extends Component {
-  //when the a gallery mounts disable scroll on body
-  componentDidMount() {
-    document.body.classList.remove('scroll');
-    window.scrollTo(0, 0);
-  }
-  //when the a gallery unmounts enable scroll on body
-  componentWillUnmount() {
-    document.body.classList.add('scroll');
-  }
+function Animals() {
+  // //when the a gallery mounts disable scroll on body
+  // componentDidMount() {
+  //   document.body.classList.remove('scroll');
+  //   window.scrollTo(0, 0);
+  // }
+  // //when the a gallery unmounts enable scroll on body
+  // componentWillUnmount() {
+  //   document.body.classList.add('scroll');
+  // }
 
-  state = {
-    currentImage: 0,
-  };
+  // state = {
+  //   currentImage: 0,
+  // };
 
   // openLightbox = (ev, obj) => {
   //   this.setState({
@@ -131,45 +131,42 @@ class Animals extends Component {
   //     currentImage: this.state.currentImage + 1,
   //   });
   // }
-
-  render() {
-    return (
-      <Route
-        path="/animals"
-        render={() => (
-          <div>
-            <div className="gallery-container">
-              <h2 className="gallery-heading">Animals</h2>
-              <Gallery
-                photos={animalPhotos}
-                // onClick={this.openLightbox}
-                direction="row"
-              />
-              {/* <Lightbox images={PHOTO_SET}
+  return (
+    <Route
+      path="/animals"
+      render={() => (
+        <div>
+          <div className="gallery-container">
+            <h2 className="gallery-heading">Animals</h2>
+            <Gallery
+              photos={animalPhotos}
+              // onClick={this.openLightbox}
+              direction="row"
+            />
+            {/* <Lightbox images={PHOTO_SET}
               onClose={this.closeLightbox}
               onClickPrev={this.gotoPrevious}
               onClickNext={this.gotoNext}
               currentImage={this.state.currentImage}
               isOpen={this.state.lightboxIsOpen}
             /> */}
-            </div>
-            <div className="bottom-nav">
-              <Link to="/travel">
-                <div className="travel">
-                  <h2>Travel</h2>
-                </div>
-              </Link>
-              <Link to="/people">
-                <div className="people">
-                  <h2>People</h2>
-                </div>
-              </Link>
-            </div>
           </div>
-        )}
-      />
-    );
-  }
+          <div className="bottom-nav">
+            <Link to="/travel">
+              <div className="travel">
+                <h2>Travel</h2>
+              </div>
+            </Link>
+            <Link to="/people">
+              <div className="people">
+                <h2>People</h2>
+              </div>
+            </Link>
+          </div>
+        </div>
+      )}
+    />
+  );
 }
 
 export default Animals;

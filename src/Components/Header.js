@@ -1,43 +1,36 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Navigation from './Navigation';
 import MenuIcon from '../images/menu.svg';
 
-export default class Header extends Component {
+function Header() {
+  const [menuIsOpen, setMenuIsOpen] = useState(false);
 
-  state = {
-    menuIsOpen: false
-  }
+  const toggleMenu = () => {
+    setMenuIsOpen((prevState) => !prevState);
+  };
 
-  toggleMenu = () => {
-    this.setState({
-      menuIsOpen: !this.state.menuIsOpen
-    })
-  }
-  
-  render() {
-    return (
-      <div className="header">
-        <Link to="/" className="header-link">
-          <h1>Chris Carr Photography</h1>
-        </Link>
-        <img src={MenuIcon} 
-          className="menu-icon" 
-          alt="menu icon"
-          onClick={this.toggleMenu}
-        />
-        <Navigation 
-          menuIsOpen={this.state.menuIsOpen} toggleMenu={this.toggleMenu}
-        />
-        <nav className="large-nav">
-          <ul>
-            <li className="nav-link">
-              <Link to="/">Home</Link>
-            </li>
-            <li className="nav-link">
-              <Link to="/about">About</Link>
-            </li>
-            {/* <li className="nav-link">
+  return (
+    <div className="header">
+      <Link to="/" className="header-link">
+        <h1>Chris Carr Photography</h1>
+      </Link>
+      <img
+        src={MenuIcon}
+        className="menu-icon"
+        alt="menu icon"
+        onClick={toggleMenu}
+      />
+      <Navigation menuIsOpen={menuIsOpen} toggleMenu={toggleMenu} />
+      <nav className="large-nav">
+        <ul>
+          <li className="nav-link">
+            <Link to="/">Home</Link>
+          </li>
+          <li className="nav-link">
+            <Link to="/about">About</Link>
+          </li>
+          {/* <li className="nav-link">
               <Link to="/animals">Animals</Link>
             </li>
             <li className="nav-link">
@@ -46,9 +39,9 @@ export default class Header extends Component {
             <li className="nav-link">
               <Link to="/people">People</Link>
             </li> */}
-          </ul>
-        </nav>
-      </div>
-    )
-  }
+        </ul>
+      </nav>
+    </div>
+  );
 }
+export default Header;
