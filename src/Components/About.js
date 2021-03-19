@@ -1,5 +1,7 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
+import instagram from '../images/ig-glyph-fill.png';
+import twitter from '../images/twitter-logo.png';
 
 function About() {
   // //when the a gallery mounts disable scroll on body
@@ -37,7 +39,7 @@ function About() {
           <div className="icon-set">
             <a href="https://www.instagram.com/christocarrgrapher/">
               <img
-                src={require('../images/ig-glyph-fill.png')}
+                src={instagram}
                 alt="instagram logo"
                 width="60px"
                 height="60px"
@@ -45,7 +47,7 @@ function About() {
             </a>
             <a href="https://twitter.com/ChrisofCarr?lang=en">
               <img
-                src={require('../images/twitter-logo.png')}
+                src={twitter}
                 alt="twitter logo"
                 width="40px"
                 height="40px"
