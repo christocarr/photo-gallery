@@ -1,22 +1,18 @@
-.App {
-  position: relative;
-  text-align: center;
-  height: 80vh;
-  margin: 12vh 0 0 0;
-}
-
 .header {
-  position: fixed;
+  /* position: fixed;
   top: 0;
   left: 0;
-  z-index: 1001;
-  width: 100vw;
-  height: 12vh;
+  z-index: 1001; */
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid lightgrey;
   background-color: white;
+  padding: 2em;
+}
+
+main {
+  height: 100vh;
 }
 
 h1 {
@@ -71,7 +67,6 @@ ul {
 
 .nav-link:last-of-type {
   margin: 0 1em 0 0;
-
 }
 
 /***hide navigation on menu clicked***/
@@ -95,13 +90,13 @@ ul {
   position: relative;
   display: flex;
   flex-direction: column;
-  height: auto; 
-  margin: 1.5em 1em 1.5em 1em; 
+  height: auto;
+  margin: 1.5em 1em 1.5em 1em;
 }
 
 .category-heading {
   margin: 0;
-  color:white;
+  color: white;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -116,16 +111,16 @@ ul {
 }
 
 .travel-img {
-  background-image: url("images/travel/tuk-tukdriver/tuk-tukhome.jpg");
+  background-image: url('images/travel/tuk-tukdriver/tuk-tukhome.jpg');
 }
 
 .people-img {
-  background-image: url("images/people/bee/beehome.jpg");
+  background-image: url('images/people/bee/beehome.jpg');
   filter: brightness(50%);
 }
 
 .animal-img {
-  background-image: url("images/animals/rhino/rhinohome.jpg");
+  background-image: url('images/animals/rhino/rhinohome.jpg');
 }
 
 /*******************************************
@@ -167,11 +162,6 @@ h2 {
   width: 75%;
   margin: 15vh auto 0 auto;
   line-height: 1.6em;
-  text-align: left;
-}
-
-.about-container h2 {
-  text-align: center;
 }
 
 .icon-set {
@@ -186,7 +176,8 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 8vh;
+  align-items: center;
+  height: 5em;
   width: 100vw;
   position: fixed;
   bottom: 0;
@@ -212,7 +203,6 @@ h2 {
 }
 
 @media screen and (min-width: 767px) {
-
   .category-container {
     width: 600px;
   }
@@ -251,7 +241,6 @@ h2 {
   }
 
   @media screen and (min-width: 1023px) {
-
     .menu-icon {
       display: none;
     }
@@ -294,15 +283,11 @@ h2 {
     .bottom-nav {
       margin: 2.5em 0 7em 0;
     }
-
   }
 
   @media screen and (min-width: 1439px) {
-
     .about-container {
       width: 40%;
     }
-
   }
-
 }
