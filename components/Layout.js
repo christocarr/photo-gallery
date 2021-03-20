@@ -9,7 +9,7 @@ function Layout({ children }) {
         <title>Chris Carr Photo Gallery</title>
         <meta charSet="utf-8" />
         <meta lang="en" />
-        <link rel="shortcut icon" href="/static/favicon.ico" />
+        <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
       <Header />
       <main>{children}</main>
