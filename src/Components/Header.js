@@ -11,7 +11,7 @@ function Header() {
   };
 
   return (
-    <div className="header">
+    <header className="header">
       <Link to="/" className="header-link">
         <h1>Chris Carr Photography</h1>
       </Link>
@@ -41,7 +41,7 @@ function Header() {
             </li> */}
         </ul>
       </nav>
-    </div>
+    </header>
   );
 }
 export default Header;
