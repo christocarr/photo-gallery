@@ -70,6 +70,10 @@ ul {
   display: none;
 }
 
+main {
+  position: relative;
+}
+
 /*******************************************
                   HOME SCREEN
 ********************************************/
@@ -173,8 +177,8 @@ h2 {
   align-items: center;
   height: 5em;
   width: 100vw;
-  /* position: fixed;
-  bottom: 0; */
+  position: absolute;
+  bottom: 0;
   border-top: 1px solid lightgrey;
   background-color: white;
   font-size: 0.9em;
