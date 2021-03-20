@@ -35,7 +35,7 @@ export const peoplePhotos = [
     alt: 'Model with striking background',
   },
   {
-    src: `https://i.ibb.co/PYGWGNs/bee1920.jpg`,
+    src: path + `bee/bee1920.jpg`,
     // srcSet: [
     //
     // ],

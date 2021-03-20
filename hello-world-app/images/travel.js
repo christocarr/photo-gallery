@@ -15,7 +15,7 @@ export const travelPhotos = [
     sizes: ['(min-width: 480px) 50vw,(min-width:1024px) 33.3vw, 100vw'],
     width: 4.2,
     height: 3,
-    key: '0',
+    key: '7',
     alt: 'Boat in the Caribbean sunset',
   },
   {
@@ -73,9 +73,9 @@ export const travelPhotos = [
     // srcSet: [
     // ],
     sizes: ['(min-width: 480px) 50vw,(min-width:1024px) 33.3vw, 100vw'],
-    width: 2.5,
-    height: 5,
-    key: '7',
+    width: 5,
+    height: 10,
+    key: '0',
     alt: 'Footpath leading down to Beer beach front',
   },
 ];
