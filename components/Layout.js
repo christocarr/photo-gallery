@@ -11,9 +11,11 @@ function Layout({ children }) {
         <meta lang="en" />
         <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
-      <Header />
-      <main>{children}</main>
-      <Footer />
+      <div className="flex flex-col min-h-screen relative">
+        <Header />
+        <main className="mb-14">{children}</main>
+        <Footer />
+      </div>
     </>
   );
 }
