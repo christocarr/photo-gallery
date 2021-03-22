@@ -1,5 +1,78 @@
-function Header({ children }) {
-  return <header>{children}</header>;
+import { useState } from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
+import MobileNav from './MobileNav';
+import Navbar from './Navbar';
+import NavItem from './NavItem';
+import DropDown from './DropDown';
+function Header() {
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const dropdownHandler = () => {
+    setDropdownOpen((prevState) => !prevState);
+  };
+
+  const menuHandler = () => {
+    setMobileMenuOpen((prevState) => !prevState);
+  };
+
+  return (
+    <header className="flex flex-row justify-between items-center p-2 md:px-5">
+      <Link href="/">
+        <h1 className="leading-none text-xl cursor-pointer md:text-2xl">
+          Christopher Carr Photography
+        </h1>
+      </Link>
+      {/* if sreen sizes are bigger than md then display none */}
+      <div
+        onClick={menuHandler}
+        className="flex flex-col justify-center align-center mt-2 cursor-pointer sm:block md:hidden"
+      >
+        {mobileMenuOpen ? (
+          <Image
+            src="/assets/icons/close.svg"
+            width="30"
+            height="30"
+            alt="close menu"
+          />
+        ) : (
+          <Image
+            src="/assets/icons/menu.svg"
+            width="30"
+            height="30"
+            alt="open menu"
+          />
+        )}
+      </div>
+      <MobileNav isOpen={mobileMenuOpen}>
+        <NavItem>
+          <Link href="/people">People</Link>
+        </NavItem>
+        <NavItem>
+          <Link href="/travel">Travel</Link>
+        </NavItem>
+        <NavItem>
+          <Link href="/animals">Animals</Link>
+        </NavItem>
+        <NavItem>
+          <Link href="/about">About</Link>
+        </NavItem>
+      </MobileNav>
+
+      {/* if screen size is small display none */}
+      <div className="hidden md:block">
+        <Navbar>
+          <NavItem>
+            <Link href="/about">About</Link>
+          </NavItem>
+          <NavItem>
+            <DropDown isOpen={dropdownOpen} handleDropDown={dropdownHandler} />
+          </NavItem>
+        </Navbar>
+      </div>
+    </header>
+  );
 }
 
 export default Header;
