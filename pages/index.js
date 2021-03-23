@@ -1,4 +1,4 @@
-import Layout from '../components/layout';
+import Layout from '../components/Layout';
 import PhotoGallery from '../components/PhotoGallery';
 import { tigerHero } from '../images/hero';
 
