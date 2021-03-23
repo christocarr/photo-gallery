@@ -27,7 +27,7 @@ function DropDown({ isOpen, handleDropDown }) {
         )} */}
       </span>
       {isOpen && (
-        <ul className="absolute top-11 right-4 bg-white text-black p-5 border">
+        <ul className="absolute top-11 right-4 bg-white text-black p-5 border md:py-6 md:px-12 md:top-14 md:right-6 lg:top-20 lg:right-20">
           <NavItem>
             <Link href="/people">People</Link>
           </NavItem>
