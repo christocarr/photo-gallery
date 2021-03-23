@@ -13,7 +13,7 @@ function Layout({ children }) {
       </Head>
       <div className="flex flex-col min-h-screen relative">
         <Header />
-        <main className="mb-14 md:px-8 lg:px-24 xl:w-5/6 xl:m-auto xl:mt-20 xl:mb-40 2xl:w-6/12 2xl:p-0">
+        <main className="px-4 mb-14 md:px-8 lg:px-24 xl:w-5/6 xl:m-auto xl:mt-20 xl:mb-40 2xl:w-6/12 2xl:p-0">
           {children}
         </main>
         <Footer />

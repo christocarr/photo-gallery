@@ -18,7 +18,7 @@ function Header() {
   };
 
   return (
-    <header className="flex flex-row justify-between items-center p-2 md:py-4 md:px-8 lg:px-24 lg:py-8 xl:border-b">
+    <header className="flex flex-row justify-between items-center p-4 md:px-8 lg:px-24 lg:py-8 xl:border-b">
       <Link href="/">
         <h1 className="leading-none text-xl cursor-pointer md:text-2xl md:ml-1">
           Christopher Carr Photography
