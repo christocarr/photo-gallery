@@ -8,10 +8,6 @@ import NavItem from './NavItem';
 function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  const dropdownHandler = () => {
-    setDropdownOpen((prevState) => !prevState);
-  };
-
   const menuHandler = () => {
     setMobileMenuOpen((prevState) => !prevState);
   };
