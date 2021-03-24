@@ -4,9 +4,8 @@ import Image from 'next/image';
 import MobileNav from './MobileNav';
 import Navbar from './Navbar';
 import NavItem from './NavItem';
-import DropDown from './DropDown';
+
 function Header() {
-  const [dropdownOpen, setDropdownOpen] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const dropdownHandler = () => {
@@ -60,14 +59,20 @@ function Header() {
         </NavItem>
       </MobileNav>
 
-      {/* if screen size is small display none */}
+      {/* hide on small screens */}
       <div className="hidden md:block md:-mr-1">
         <Navbar>
           <NavItem>
-            <Link href="/about">About</Link>
+            <Link href="/people">People</Link>
           </NavItem>
           <NavItem>
-            <DropDown isOpen={dropdownOpen} handleDropDown={dropdownHandler} />
+            <Link href="/travel">Travel</Link>
+          </NavItem>
+          <NavItem>
+            <Link href="/animals">Animals</Link>
+          </NavItem>
+          <NavItem>
+            <Link href="/about">About</Link>
           </NavItem>
         </Navbar>
       </div>
