@@ -5,7 +5,14 @@ function Footer() {
         Copyright <span>&#169;</span> Christopher Carr
       </p>
       <p className="mb-4 leading-6 md:text-lg md:leading-7 2xl:mb-0">
-        Made with Next.js
+        Made with{' '}
+        <a href="https://nextjs.org/" className="underline">
+          Next.js
+        </a>{' '}
+        and{' '}
+        <a href="https://tailwindcss.com/" className="underline">
+          Tailwindcss
+        </a>
       </p>
     </footer>
   );
